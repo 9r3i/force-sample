@@ -80,16 +80,11 @@
     ["land","?land=9302"],
     ["test","dalem banget deh"],
     ["slider",[
-        "https://sabunjelly.com/api/force/force/data/website_foxtrot/images/27.jpg",
-        "https://sabunjelly.com/api/force/force/data/website_foxtrot/images/26.jpg",
-        "https://sabunjelly.com/api/force/force/data/website_foxtrot/images/25.jpg",
-        "https://sabunjelly.com/api/force/force/data/website_foxtrot/images/28.jpg",
-        "https://sabunjelly.com/api/force/force/data/website_foxtrot/images/29.jpg",
-        "https://sabunjelly.com/api/force/force/data/website_foxtrot/images/30.jpg",
-        "https://sabunjelly.com/api/force/force/data/website_foxtrot/images/31.jpg",
-        "https://sabunjelly.com/api/force/force/data/website_foxtrot/images/32.jpg",
-        "https://sabunjelly.com/api/force/force/data/website_foxtrot/images/33.jpg",
-        "https://sabunjelly.com/api/force/force/data/website_foxtrot/images/34.jpg"
+        "https://sabunjelly.com/files/image/jpeg/badr-battle-field-01.jpg",
+        "https://sabunjelly.com/files/image/jpeg/badr-battle-field-02.jpg",
+        "https://sabunjelly.com/files/image/jpeg/badr-battle-field-03.jpg",
+        "https://sabunjelly.com/files/image/jpeg/badr-battle-field-04.jpg",
+        "https://sabunjelly.com/files/image/jpeg/badr-battle-field-05.jpg"
       ]
     ]
   ],
