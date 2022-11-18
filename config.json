@@ -1,0 +1,97 @@
+{
+  "site": {
+    "name": "9r3i",
+    "description": "The sly eagle doesn't kill at whim",
+    "time": "2022-11-13 05:35:44",
+    "data": {
+      "links": [
+        {
+          "title": "Meta Data",
+          "links": [
+            ["?search","Search"],
+            ["?kitchen","Login"]
+          ]
+        }
+      ],
+      "social": {
+        "github": "https://github.com/9r3i",
+        "whatsapp": "https://wa.me/6282110719711",
+        "mail": "mailto:luthfie@y7mail.com",
+        "linkedin": "https://www.linkedin.com/in/9r3i",
+        "twitter": "https://twitter.com/_9r3i",
+        "playstore": "https://play.google.com/store/apps/dev?id=6294970245461974911",
+        "facebook": "https://fb.me/lut93",
+        "youtube": "https://m.youtube.com/channel/UC6CVKglvnbtoIbpIn_fsrWw"
+      },
+      "others": [
+        {
+          "title": "Mukadimah",
+          "content": "Alhamdulillaah, segala puji hanya milik Allah yang telah memberi segala kemudahan dan kenikmatan."
+        }
+      ],
+      "address": "Alamat:\nJatimekar, Jatiasih, Kota Bekasi, Jawa Barat, Indonesia",
+      "bankAccount": "Bank BNI 1262420702 a.n. Luthfie Al Anshary (BIC/SWIFT:BNINIDJABKS)"
+    }
+  },
+  "host": "https://sabunjelly.com/api/force/",
+  "data": {
+    "base": "foxtrot",
+    "path": "force/data/website_foxtrot/",
+    "limit": 8
+  },
+  "themes": [
+  ],
+  "plugins": [
+    ["menu",[
+      {
+        "href": "?home",
+        "text": "Home"
+      },
+      {
+        "href": "?p=tulisan-pertama",
+        "text": "Tulisan Pertama"
+      },
+      {
+        "href": "?search",
+        "text": "Search"
+      },
+      {
+        "href": "?kitchen",
+        "text": "Login"
+      }
+    ]],
+    ["site",""],
+    ["grid",8],
+    ["timeago","id_ID"],
+    ["visitor","website_foxtrot"],
+    ["locode","@[locode:ldb|js|php|html[ ***code*** ~]]"],
+    ["arabic","arabic"],
+    ["link",""],
+    ["social",[
+        "sharer",
+        "like"
+      ]
+    ],
+    ["search",{
+        "holder": "Search...",
+        "key": "search"
+      }
+    ],
+    ["land","?land=9302"],
+    ["test","dalem banget deh"],
+    ["slider",[
+        "https://sabunjelly.com/api/force/force/data/website_foxtrot/images/27.jpg",
+        "https://sabunjelly.com/api/force/force/data/website_foxtrot/images/26.jpg",
+        "https://sabunjelly.com/api/force/force/data/website_foxtrot/images/25.jpg",
+        "https://sabunjelly.com/api/force/force/data/website_foxtrot/images/28.jpg",
+        "https://sabunjelly.com/api/force/force/data/website_foxtrot/images/29.jpg",
+        "https://sabunjelly.com/api/force/force/data/website_foxtrot/images/30.jpg",
+        "https://sabunjelly.com/api/force/force/data/website_foxtrot/images/31.jpg",
+        "https://sabunjelly.com/api/force/force/data/website_foxtrot/images/32.jpg",
+        "https://sabunjelly.com/api/force/force/data/website_foxtrot/images/33.jpg",
+        "https://sabunjelly.com/api/force/force/data/website_foxtrot/images/34.jpg"
+      ]
+    ]
+  ],
+  "coverLoader": false
+}
