@@ -16,7 +16,7 @@ See the result in [https://9r3i.github.io/force-sample/hariankapi.html](https://
 
 # First thing first
 
-Create an html file like ```index,html```, and put some primary tags on it, like: 
+Create an html file like ```index.html```, and put some primary tags on it, like: 
 ```html
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr"><head>
@@ -24,7 +24,7 @@ Create an html file like ```index,html```, and put some primary tags on it, like
 </body></html>
 ```
 
-Also add some meta http-equiv and viewport inside head tags like
+Also add some meta http-equiv and viewport inside head tags like:
 ```html
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -125,7 +125,7 @@ To store the force.js cache, we need a ```script``` tag, and ofcourse with an ID
 ```html
 <script type="text/javascript" id="force-script"></script>
 ```
-With ID, we are gonna be easier to get the element, and put script on it.
+With ID, it's gonna be easier to get the element, and put script on it.
 
 
 # Data Config
@@ -141,7 +141,7 @@ Now we are gonna add some data configuration: host, base (for database name) and
 }
 ```
 
-Merge with force section is gonna br like this,
+Merge with force section is gonna be like this,
 ```json
 {
   "force": {
@@ -165,7 +165,7 @@ And that's the config we need for data.
 
 # Site Information
 
-Next is about site info, like: ```site.name```, description, keywords, etc. Like sample this:
+Next is about site info, like: ```site.name```, description, keywords, etc. Like this sample:
 ```json
 {
   "site": {
@@ -210,7 +210,7 @@ Now, time for set the theme. I had one for sample named "crispy". Put this in th
 }
 ```
 
-And you may merge this one as well.
+And now you gotta merge this one as well.
 
 
 # Plugins
@@ -218,10 +218,10 @@ And you may merge this one as well.
 Plugins are the necessary helper for any of website content management system. These are for ForceWebsite helper, especially for the theme and kitchen as well.
 
 In this case, we need plugins:
-  - social for sharing content
-  - link for detecting url link in content
-  - editor for rich text editor in Kitchen
-  - crispies to help crispy theme to manage the custom content in front and back in kitchen.
+  - ```social``` for sharing content
+  - ```link``` for detecting url link in content
+  - ```editor``` for rich text editor in Kitchen
+  - ```crispies``` to help ```crispy``` theme to manage the custom content in front and back in Kitchen.
   
   
 ```json
@@ -245,21 +245,21 @@ In this case, we need plugins:
 }
 ```
 
-Merge the config ,and we've done for configuration.
+Merge the config, and we've done for configuration.
 
 
 # Execute the Script
 
-After we're done with configuration, now it's time to execute in script.
+After we've done with configuration, now it's time to execute in script.
 
 It's gonna need a ```script``` tag,
 ```html
 <script type="text/javascript">
-/* some script in next section */
+/* some script in next paragraph */
 </script>
 ```
 
-If you want to, you may out some error debugging on it, like this.
+If you want to, you may put some error debugging on it, like this.
 ```js
 window.addEventListener('error',function(e){
   var errorText = [
@@ -309,9 +309,6 @@ The whole content of ```hariankapi.html``` is in [hariankapi.html](https://githu
 That's all there is to it. Alhamdulillaah...
 
 
-
-
-
-..
+--Abu Ayyub
 
 
