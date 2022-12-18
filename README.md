@@ -275,15 +275,15 @@ Put it in ```script``` tag,
 Then next one is the final touch.
 ```js
 (async function(n,h,c,f){
-  var ftag=document.getElementById(f), // grt config file element
-  fname='force/virtual/force.js', // file name of virtual force,js
+  var ftag=document.getElementById(f), // get config file element
+  fname='force/virtual/force.js', // file name of virtual force.js
   fscript=localStorage.getItem(fname), // get force.js cache if it's already stored
   cnf=JSON.parse(document.getElementById(c).textContent); // parse config string into json object
   if(!fscript){ // if cache not stored yet
     fscript=await fetch(cnf.force.file).then(r=>r.text()); // load the force.js file
     localStorage.setItem(fname,fscript); // store the script for cache in virtual file
   }
-  ftag.textContent=fscript; // put script in script element, executed immedietly
+  ftag.textContent=fscript; // put script in script element, it's gonna be executed immedietly
   const app=(new Force).app(n,h,cnf); // prepare the app
   await app.init(); // initialize the app
   console.log("A Force app has been loaded, namespace: "
