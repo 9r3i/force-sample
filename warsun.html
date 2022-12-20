@@ -116,10 +116,8 @@ window.addEventListener('error',function(e){
     'Line: ' + e.lineno + ', Column: ' + e.colno,
     'Stack: ' + (e.error && e.error.stack || '(no stack trace)')
   ].join('\n');
-  alert(errorText);
 });
 (async function(n,h,c,f){
-  //localStorage.clear();
   var ftag=document.getElementById(f),
   fname='force/virtual/force.js',
   fscript=localStorage.getItem(fname),
@@ -133,7 +131,12 @@ window.addEventListener('error',function(e){
   await app.init();
   console.log("A Force app has been loaded, namespace: "
     +app.namespace);
-})('website','apps','website-config','force-script');
+})(
+  'website',
+  'https://9r3i.github.io/force-website',
+  'website-config',
+  'force-script'
+);
 </script>
 <style type="text/css" media="screen">
 body{
