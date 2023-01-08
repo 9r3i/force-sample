@@ -135,7 +135,7 @@ Now we are gonna add some data configuration: host, base (for database name) and
 ```json
 {
   "data": {
-    "host": "https://sabunjelly.com/api/force/",
+    "host": "https://9r3i.web.id/api/force/",
     "base": "hariankapi",
     "driver": "ForceData"
   }
@@ -154,7 +154,7 @@ Merge with force section is gonna be like this,
     }
   },
   "data": {
-    "host": "https://sabunjelly.com/api/force/",
+    "host": "https://9r3i.web.id/api/force/",
     "base": "hariankapi",
     "driver": "ForceData"
   }
