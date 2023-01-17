@@ -2,9 +2,9 @@
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
-  <title>Warung Sunda</title>
-  <meta name="keywords" content="Warung, Masakan, Sunda" />
-  <meta name="description" content="Warung makan yang menyediakan masakan has Sunda" />
+  <title>9r3i</title>
+  <meta name="keywords" content="9r3i, Force, Foxtrot" />
+  <meta name="description" content="The sly eagle doesn't kill at whim" />
   <meta name="robots" content="follow,index" />
   <meta name="author" content="9r3i" />
   <meta name="author-uri" content="https://github.com/9r3i" />
@@ -32,20 +32,21 @@
 <script type="application/ld+json">
     {
       "@context": "https://schema.org/",
-      "@type": "Product",
-      "name": "Liwet Balatrak",
-      "image": "https://cdn-2.tstatic.net/kaltim/foto/bank/images/nasi-liwet_20170617_114229.jpg",
-      "description": "Liwet dengan porsi 6 orang diatas daun pisang",
+      "@type": "Person",
+      "name": "9r3i",
+      "image": "https://avatars.githubusercontent.com/u/3212290",
+      "description": "The sly eagle doesn't kill at whim",
+      "homepage": "https://github.com/9r3i",
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.1",
-        "reviewCount": "185",
+        "ratingValue": "4.9",
+        "reviewCount": "15",
         "bestRating": "5",
         "worstRating": "1"
       }
     }
 </script>
-<script type="application/json" id="website-config">
+<script type="application/json" id="firesite-config">
 {
   "force": {
     "file": "https://9r3i.github.io/force/force.min.js",
@@ -56,14 +57,24 @@
     }
   },
   "data": {
-    "host": "https://9r3i.web.id/api/force/",
-    "base": "warsun",
-    "driver": "ForceData"
+    "host": "firesite100.firebaseapp.com",
+    "base": "foxtrot",
+    "driver": "Firebase",
+    "config": {
+      "apiKey": "AIzaSyCXS9i5b1US4y_HrT-0HTc99iasZGEbtVc",
+      "databaseURL": "https://firesite100-default-rtdb.asia-southeast1.firebasedatabase.app",
+      "storageBucket": "gs://firesite100.appspot.com",
+      "authDomain": "firesite100.firebaseapp.com",
+      "projectId": "firesite100",
+      "messagingSenderId": "727514471950",
+      "appId": "1:727514471950:web:227c9e4a63b9752c0ce65f",
+      "measurementId": "G-SRT31W4L6H"
+    }
   },
   "site": {
-    "name": "Warung Sunda",
-    "description": "Warung makan yang menyediakan masakan has Sunda",
-    "keywords": "Warung, Masakan, Sunda",
+    "name": "9r3i",
+    "description": "The sly eagle doesn't kill at whim",
+    "keywords": "9r3i, Force, Foxtrot",
     "robots": "follow, index",
     "date": {
       "year": "2022",
@@ -77,11 +88,12 @@
     "key": "kitchen"
   },
   "theme": {
-    "namespace": "smart",
-    "host": "https://9r3i.github.io/fw-theme-smart",
+    "namespace": "foxtrot",
+    "host": "https://9r3i.github.io/foxtrot-theme",
     "config": {
       "data": {
-        "limit": 8
+        "limit": 8,
+        "foot": 1
       }
     }
   },
@@ -89,24 +101,77 @@
     ["configuration",false,
       "https://9r3i.github.io/force-website-plugins"
     ],
-    ["link",false,"https://9r3i.github.io/force-website-plugins"],
+    ["editor",false,
+      "https://9r3i.github.io/force-kitchen-editor"
+    ],
+    ["menu",[
+        {
+          "href": "?home",
+          "text": "Home"
+        },
+        {
+          "href": "?p=tulisan-pertama",
+          "text": "Tulisan Pertama"
+        },
+        {
+          "href": "?search",
+          "text": "Search"
+        },
+        {
+          "href": "?kitchen",
+          "text": "Login"
+        }
+      ],
+      "https://9r3i.github.io/force-website-plugins"
+    ],
+    ["site",false,
+      "https://9r3i.github.io/force-website-plugins"
+    ],
+    ["grid",false,
+      "https://9r3i.github.io/force-website-plugins"
+    ],
+    ["timeago","id_ID",
+      "https://9r3i.github.io/force-website-plugins"
+    ],
+    ["locode",false,
+      "https://9r3i.github.io/force-website-plugins"
+    ],
+    ["arabic","arabic",
+      "https://9r3i.github.io/force-website-plugins"
+    ],
+    ["link",false,
+      "https://9r3i.github.io/force-website-plugins"
+    ],
     ["social",[
         "sharer",
-        "like",
         "qrcode"
       ],
       "https://9r3i.github.io/force-website-plugins"
     ],
-    ["editor",false,
-      "https://9r3i.github.io/force-kitchen-editor"
+    ["search",{
+        "id": "body",
+        "holder": "Search...",
+        "key": "search"
+      },
+      "https://9r3i.github.io/force-website-plugins"
     ],
-    ["crispies",false,
-      "https://9r3i.github.io/fw-theme-crispy"
+    ["land",false,
+      "https://9r3i.github.io/force-website-plugins"
+    ],
+    ["test","dalem banget deh",
+      "https://9r3i.github.io/force-website-plugins"
+    ],
+    ["slider",{
+        "id": "body",
+        "images": []
+      },
+      "https://9r3i.github.io/force-website-plugins"
     ]
   ],
   "coverLoader": false
 }
 </script>
+<script type="module" src="https://9r3i.github.io/firebase-moduler/modules/moduler.js"></script>
 <script type="text/javascript" id="force-script"></script>
 <script type="text/javascript">
 window.addEventListener('error',function(e){
@@ -132,9 +197,9 @@ window.addEventListener('error',function(e){
   console.log("A Force app has been loaded, namespace: "
     +app.namespace);
 })(
-  'website',
-  'https://9r3i.github.io/force-website',
-  'website-config',
+  'firesite',
+  'https://9r3i.github.io/force-firesite',
+  'firesite-config',
   'force-script'
 );
 </script>
