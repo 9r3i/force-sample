@@ -309,10 +309,7 @@ The whole content of ```hariankapi.html``` is in [hariankapi.html](https://githu
 
 That's all there is to it. Alhamdulillaah...
 
-### Visitors
-[![9r3i/force-sample Visitors](https://9r3i.web.id/api/views/?user=9r3i-force-sample&color=51,119,187)](https://github.com/9r3i/force-sample)
-|---|
-| Since January 18th 2023 |
+
 
 
 --Abu Ayyub
