@@ -302,7 +302,7 @@ Merge the script with another one before if you had one.
 
 # Whole Content
 
-The whole content of ```firesite.html``` is in [hariankapi.html](https://github.com/9r3i/force-sample/blob/master/firesite.md)
+The whole content of ```firesite.html``` is in [firesite.md](https://github.com/9r3i/force-sample/blob/master/firesite.md)
 
 
 # Closing
