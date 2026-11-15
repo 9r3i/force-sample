@@ -12,7 +12,7 @@
 Sample of Force website app
 
 # Result
-See the result in [Harian Kapi](https://relfo.vercel.app/9r3i/force-sample/sample/hariankapi.html)
+See the result in [Firesite](https://relfo.vercel.app/9r3i/force-sample/sample/firesite.html)
 
 
 # First thing first
@@ -302,7 +302,7 @@ Merge the script with another one before if you had one.
 
 # Whole Content
 
-The whole content of ```hariankapi.html``` is in [hariankapi.html](https://github.com/9r3i/force-sample/blob/master/hariankapi.md)
+The whole content of ```firesite.html``` is in [hariankapi.html](https://github.com/9r3i/force-sample/blob/master/firesite.md)
 
 
 # Closing
