@@ -1,3 +1,9 @@
+# sample
+[Firesite](https://relfo.vercel.app/9r3i/force-sample/sample/firesite.html)
+
+
+# code
+```html
 <!DOCTYPE html><html lang="en-US" dir="ltr"><head>
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -300,3 +306,5 @@ body{
 }
 </style>
 </body></html>
+
+```

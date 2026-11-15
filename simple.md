@@ -1,3 +1,9 @@
+# sample
+[Simple](https://relfo.vercel.app/9r3i/force-sample/sample/simple.html)
+
+
+# code
+```html
 <!DOCTYPE html><html lang="en-US" dir="ltr"><head>
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -16,13 +22,13 @@
   },
   "data": {
     "host": "https://sabunjelly.com/api/force/",
-    "base": "wilayah",
+    "base": "simple",
     "driver": "ForceData"
   },
   "site": {
-    "name": "Wilayah",
-    "description": "Wilayah database se-Indonesia",
-    "keywords": "Wilayah, Provinsi, Daerah",
+    "name": "Simple Site",
+    "description": "Real Simple Site",
+    "keywords": "Simple, Site, Force",
     "robots": "follow, index",
     "date": {
       "year": "2023",
@@ -46,14 +52,6 @@
     }
   },
   "plugins": [
-    ["wilayah",{
-        "host": "https://9r3i.github.io/wilayah/api/2022/"
-      },
-      "https://9r3i.github.io/wilayah/fw-plugin"
-    ],
-    ["link",false,
-      "https://9r3i.github.io/force-website-plugins"
-    ],
     ["timeago","id_ID",
       "https://9r3i.github.io/force-website-plugins"
     ]
@@ -148,3 +146,5 @@ body{
     <div id="preloader-connecting" data-text="Connecting..."></div>
   </div>
 </body></html>
+
+```

@@ -1,10 +1,16 @@
+# sample
+[Harian Kapi](https://relfo.vercel.app/9r3i/force-sample/sample/hariankapi.html)
+
+
+# code
+```html
 <!DOCTYPE html><html lang="en-US" dir="ltr"><head>
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
-  <title>Warung Sunda</title>
-  <meta name="keywords" content="Warung, Masakan, Sunda" />
-  <meta name="description" content="Warung makan yang menyediakan masakan has Sunda" />
+  <title>Harian Kapi</title>
+  <meta name="keywords" content="Chocolate, Coffee, Tea" />
+  <meta name="description" content="Harian Kapi for Coffee and Tea" />
   <meta name="robots" content="follow,index" />
   <meta name="author" content="9r3i" />
   <meta name="author-uri" content="https://github.com/9r3i" />
@@ -33,13 +39,13 @@
     {
       "@context": "https://schema.org/",
       "@type": "Product",
-      "name": "Liwet Balatrak",
-      "image": "https://cdn-2.tstatic.net/kaltim/foto/bank/images/nasi-liwet_20170617_114229.jpg",
-      "description": "Liwet dengan porsi 6 orang diatas daun pisang",
+      "name": "Choco Berry",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipMilsuoURAN9nWFKnx98wVMW-8797ZK9fdhJU9f=s1890-w1026-h1890-rw",
+      "description": "Chocolate with berry topping.",
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.1",
-        "reviewCount": "185",
+        "reviewCount": "151",
         "bestRating": "5",
         "worstRating": "1"
       }
@@ -57,19 +63,18 @@
   },
   "data": {
     "host": "https://sabunjelly.com/api/force/",
-    "base": "warsun",
+    "base": "hariankapi",
     "driver": "ForceData"
   },
   "site": {
-    "name": "Warung Sunda",
-    "description": "Warung makan yang menyediakan masakan has Sunda",
-    "keywords": "Warung, Masakan, Sunda",
+    "name": "Harian Kapi",
+    "description": "Harian Kapi for Coffee and Tea",
+    "keywords": "Chocolate, Coffee, Tea",
     "robots": "follow, index",
     "date": {
       "year": "2022",
       "full": "2022-11-13 05:35:44"
-    },
-    "data": {}
+    }
   },
   "kitchen": {
     "namespace": "kitchen",
@@ -77,13 +82,8 @@
     "key": "kitchen"
   },
   "theme": {
-    "namespace": "smart",
-    "host": "https://9r3i.github.io/fw-theme-smart",
-    "config": {
-      "data": {
-        "limit": 8
-      }
-    }
+    "namespace": "crispy",
+    "host": "https://9r3i.github.io/fw-theme-crispy"
   },
   "plugins": [
     ["configuration",false,
@@ -104,7 +104,7 @@
       "https://9r3i.github.io/fw-theme-crispy"
     ]
   ],
-  "coverLoader": false
+  "coverLoader": true
 }
 </script>
 <script type="text/javascript" id="force-script"></script>
@@ -238,3 +238,4 @@ body{
 }
 </style>
 </body></html>
+```
