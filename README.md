@@ -302,7 +302,7 @@ Merge the script with another one before if you had one.
 
 # Whole Content
 
-The whole content of ```hariankapi.html``` is in [hariankapi.html](https://github.com/9r3i/force-sample/blob/master/hariankapi.html)
+The whole content of ```hariankapi.html``` is in [hariankapi.html](https://github.com/9r3i/force-sample/blob/master/hariankapi.md)
 
 
 # Closing
