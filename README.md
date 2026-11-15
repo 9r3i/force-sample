@@ -12,7 +12,7 @@
 Sample of Force website app
 
 # Result
-See the result in [https://9r3i.github.io/force-sample/hariankapi.html](https://9r3i.github.io/force-sample/hariankapi.html)
+See the result in [Harian Kapi](https://relfo.vercel.app/9r3i/force-sample/sample/hariankapi.html)
 
 
 # First thing first
